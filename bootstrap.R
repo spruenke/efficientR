@@ -3,6 +3,7 @@ rm(list = ls())
 if(!("microbenchmark" %in% installed.packages())){install.packages("microbenchmark")}
 if(!("ggplot2" %in% installed.packages())){install.packages("ggplot2")}
 if(!("Rcpp" %in% installed.packages())){install.packages("Rcpp")}
+if(!("RcppArmadillo" %in% installed.packages())){install.packages("RcppArmadillo")}
 library(microbenchmark)
 library(ggplot2)
 library(Rcpp)
